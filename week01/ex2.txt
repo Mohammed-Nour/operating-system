@@ -1,0 +1,18 @@
+  392  mkdir test
+  393  mkdir test2
+  394  cd test2
+  395  ping -c 5 192.168.1.1 >> logs.txt
+  396  cat logs.txt 
+  397  cp logs.txt ..
+  398  cd ..
+  399  rm -r test
+  400  rm -r test2
+  401  rm -r logs.txt 
+  402  ls
+  403  pwd
+  404  whoami 
+  405  history > ex2.txt
+  406  history | tail -n 16 > ex2.txt
+  407  cat ex2.txt 
+  408  history | tail -n 18 > ex2.txt
+  409  echo done

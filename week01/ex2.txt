@@ -11,5 +11,6 @@
   402  ls
   403  pwd
   404  whoami 
-  405  history > ex2.txt
-  406  history | tail -n 15 > ex2.txt
+  405  echo done
+  406  history > ex2.txt
+  407  history | tail -n 16 > ex2.txt

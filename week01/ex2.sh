@@ -43,5 +43,5 @@ echo done
 # Save the command history to a file named "ex2.txt"
 history > ex2.txt
 
-# Save the last 15 commands from the history to "ex2.txt"
-history | tail -n 15 > ex2.txt
+# Save the last 16 commands from the history to "ex2.txt"
+history | tail -n 16 > ex2.txt

@@ -20,7 +20,7 @@ drwxr-xr-x  13 root root  4096 Aug 30 18:10 var
 drwxr-xr-x   4 root root  4096 Aug 31 10:07 opt
 drwxr-xr-x 161 root root 12288 Sep  2 15:03 etc
 dr-xr-xr-x  13 root root     0 Sep  8 13:40 sys
-dr-xr-xr-x 380 root root     0 Sep  8 13:40 proc
+dr-xr-xr-x 377 root root     0 Sep  8 13:40 proc
 drwxr-xr-x  21 root root  4760 Sep  8 13:40 dev
 drwxr-xr-x  41 root root  1180 Sep  8 13:40 run
-drwxrwxrwt  19 root root  4096 Sep  8 18:31 tmp
+drwxrwxrwt  19 root root  4096 Sep  8 18:38 tmp

@@ -43,15 +43,5 @@ echo done
 # Save the command history to a file named "ex2.txt"
 history > ex2.txt
 
-# Save the last 16 commands from the history to "ex2.txt"
-history | tail -n 16 > ex2.txt
-
-# Display the contents of "ex2.txt"
-cat ex2.txt
-
-# Save the last 18 commands from the history to "ex2.txt" (overwrite the previous content)
-history | tail -n 18 > ex2.txt
-
-# Print "done" to the console
-echo done
-
+# Save the last 15 commands from the history to "ex2.txt"
+history | tail -n 15 > ex2.txt

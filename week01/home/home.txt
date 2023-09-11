@@ -39,10 +39,9 @@ drwx------  2 mohamad mohamad    4096 Sep  8 10:57 .ssh
 -rw-------  1 mohamad mohamad   11818 Sep  8 13:21 .xsession-errors.old
 -rw-------  1 mohamad mohamad      77 Sep  8 13:42 .Xauthority
 drwxr-xr-x  3 mohamad mohamad    4096 Sep  8 17:11 Downloads
-drwxr-xr-x  5 mohamad mohamad    4096 Sep  8 17:49 Desktop
--rw-------  1 mohamad mohamad   15566 Sep  8 18:18 .xsession-errors
--rw-------  1 mohamad mohamad    6929 Sep  8 18:25 .bash_history
 drwxrwxr-x  5 mohamad mohamad    4096 Sep  8 18:29 .npm
--rw-------  1 mohamad mohamad    8291 Sep  8 18:31 .viminfo
-drwxr-x--- 25 mohamad mohamad    4096 Sep  8 18:31 .
-drwxrwxr-x  4 mohamad mohamad    4096 Sep  8 18:31 week01
+-rw-------  1 mohamad mohamad    8291 Sep  8 18:33 .viminfo
+drwxr-x--- 24 mohamad mohamad    4096 Sep  8 18:33 .
+drwxr-xr-x  5 mohamad mohamad    4096 Sep  8 18:33 Desktop
+-rw-------  1 mohamad mohamad   17356 Sep  8 18:34 .xsession-errors
+-rw-------  1 mohamad mohamad    7054 Sep  8 18:40 .bash_history

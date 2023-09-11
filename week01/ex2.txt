@@ -12,7 +12,4 @@
   403  pwd
   404  whoami 
   405  history > ex2.txt
-  406  history | tail -n 16 > ex2.txt
-  407  cat ex2.txt 
-  408  history | tail -n 18 > ex2.txt
-  409  echo done
+  406  history | tail -n 15 > ex2.txt

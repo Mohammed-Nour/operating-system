@@ -1,44 +1,16 @@
-# Create a new directory named "root"
-mkdir root
-
-# Print the current date
+mkdir ~/week01/root
 date
-
-# Wait for 3 seconds
 sleep 3
-
-# Create a new directory named "home"
-mkdir home
-
-# Print the current date
+mkdir ~/week01/home
 date
-
-# Wait for 3 seconds
 sleep 3
-
-# Create an empty file named "root.txt" in the "root" directory
-touch root/root.txt
-
-# Print the current date
+touch ~/week01/root/root.txt
 date
-
-# Wait for 3 seconds
 sleep 3
-
-# List the items in the root directory '/' and save the results in "root.txt"
-# The '-la' option lists all items, including hidden files, and '-tr' sorts them by time (oldest first)
-ls -la -tr / > root/root.txt
-
-# Create an empty file named "home.txt" in the "home" directory
-touch home/home.txt
-
-# Print the current date
-date
-
-# Wait for 3 seconds
-sleep 3
-
-# List the items in the home directory '~' (your home directory) and save the results in "home.txt"
-# The '-la' option lists all items, including hidden files, and '-tr' sorts them by time (oldest first)
-ls -la -tr ~ > home/home.txt
-
+touch ~/week01/home/home.txt
+ls -tr / > ~/week01/root/root.txt
+ls -tr ~/ > ~/week01/home/home.txt
+ls ~/week01/root 
+cat ~/week01/root/root.txt
+ls ~/week01/home 
+cat ~/week01/home/home.txt

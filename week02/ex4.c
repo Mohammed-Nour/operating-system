@@ -13,9 +13,9 @@ int count(char array[], char n){
 }
 
 void countAll(char array[]){
-    for(int i=0; i < strlen(array); i++){
+    for(int i=0; i < strlen(array)&&array[i]!='\n'; i++){
         printf(" %c : %d ", tolower(array[i]), count(array, tolower(array[i])));
-        if(i+1 != strlen(array)) {  
+        if(i+1 != strlen(array)-1) {  
             printf(",");            
          }
     }
@@ -25,7 +25,7 @@ void countAll(char array[]){
 int main()
 {
     char array[256];
-    scanf("%s",array);
+    fgets(array,sizeof(array),stdin);
     countAll(array);
     return 0;
 }

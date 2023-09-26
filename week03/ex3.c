@@ -44,7 +44,7 @@ void add_file(struct File * file, struct Directory * dir) {
 void overwrite_to_file(struct File * file,
   const char * str) {
   if (file != NULL && str != NULL) {
-    if (strlen(str) <= MAX_DATA) {
+    if (strlen(str) < MAX_DATA) {
       strcpy(file -> data, str);
       file -> size = strlen(str);
     } else {
@@ -57,7 +57,7 @@ void overwrite_to_file(struct File * file,
 void append_to_file(struct File * file,
   const char * str) {
   if (file != NULL && str != NULL) {
-    if (strlen(str) + file -> size <= MAX_DATA) {
+    if (strlen(str) + file -> size < MAX_DATA) {
       file -> size += strlen(str);
       strcpy(file -> data, strcat(file -> data, str));
     } else {

@@ -1,0 +1,26 @@
+answer for n = 10000000, m = 1 is: 664579
+
+real	0m25,012s
+user	0m25,007s
+sys	0m0,000s
+
+answer for n = 10000000, m = 2 is: 664579
+real	0m9,301s
+user	0m18,379s
+sys	0m0,212s
+
+answer for n = 10000000, m = 4 is: 664579
+
+real	0m6,285s
+user	0m21,458s
+sys	0m0,726s
+
+answer for n = 10000000, m = 10 is: 664579
+real	0m6,069s
+user	0m22,275s
+sys	0m0,798s
+
+answer for n = 10000000, m = 100 is: 664579
+real	0m6,064s
+user	0m23,106s
+sys	0m0,886s

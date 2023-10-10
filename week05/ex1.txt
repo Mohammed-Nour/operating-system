@@ -1,0 +1,2 @@
+We created n named pipes because named pipes (FIFOs) are unidirectional and can only be read from or written to by one process at a time.
+Each subscriber needs its own named pipe to receive messages independently without conflicts from other subscribers.

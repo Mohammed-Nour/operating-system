@@ -20,9 +20,13 @@ void *threadFunction(void *arg) {
     pthread_exit(NULL);
 }
 
-int main(){
-    int n;
-	scanf("%d",&n);
+int main(int argc, char *argv[]){
+ if (argc != 2) {
+        fprintf(stderr, "Usage: %s <number of threads>\n", argv[0]);
+        exit(EXIT_FAILURE);
+    }
+
+     int n = atoi(argv[1]);
     struct Thread threads[n];
     for(int i=0;i<n;i++){
 		threads[i].i = i;

@@ -40,10 +40,10 @@ int main() {
 
     // Store the password in memory using mmap
     char* mapped;
-    mapped = mmap(NULL, sizeof(password), PROT_READ | PROT_WRITE, MAP_SHARED | MAP_ANONYMOUS, -1, 0);
+     mapped = mmap(NULL, 13, PROT_READ | PROT_WRITE, MAP_SHARED | MAP_ANONYMOUS, -1, 0);
     strcpy(mapped, password);
 
-    printf("%s\n",password);
+   // printf("%s\n",password);
 
 
     // Infinite loop

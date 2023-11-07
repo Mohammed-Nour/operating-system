@@ -1,0 +1,44 @@
+random
+MU sends SIGUSR1 to the pager.
+Hit Ratio: 9.10% (91 hits out of 1000 total requests)
+MMU terminates.
+-------------------------
+1332 disk accesses in total
+Pager is terminated
+
+nfu:
+
+
+one all requests.
+MMU sends SIGUSR1 to the pager.
+Hit Ratio: 10.20% (102 hits out of 1000 total requests)
+MMU terminates.
+-------------------------
+1318 disk accesses in total
+Pager is terminated
+
+
+aging:
+Done all requests.
+MMU sends SIGUSR1 to the pager.
+Hit Ratio: 10.20% (102 hits out of 1000 total requests)
+MMU terminates.
+-------------------------
+1318 disk accesses in total
+Pager is terminated
+
+
+
+In summary, the Random algorithm shows a clear disadvantage in environments where
+the page access pattern is not uniformly random, which is typical
+in most real-world scenarios. Both NFU and Aging outperform Random
+by leveraging access history to make more informed decisions on page eviction,
+resulting in a higher hit ratio and fewer disk accesses.
+The identical performance between NFU and Aging suggests that
+the test case may not have been able to highlight the difference
+between these two algorithms, or the implementation specifics did not
+differentiate enough between 'frequently used' and 'recently used' pages.
+To better distinguish between NFU and Aging, you might need to create a reference
+string with a greater range of access patterns or run the simulation for a longer period.
+
+

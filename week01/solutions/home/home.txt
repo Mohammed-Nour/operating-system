@@ -1,0 +1,15 @@
+logmein-hamachi_2.1.0.203-1_amd64.deb
+Videos
+Templates
+Public
+Music
+Documents
+notes.txt
+task.txt
+nano.4565.save
+photo_2023-09-06_23-01-58.jpg
+namelist.sprted
+Pictures
+Downloads
+Desktop
+week01

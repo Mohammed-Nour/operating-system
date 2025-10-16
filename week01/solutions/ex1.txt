@@ -1,0 +1,5 @@
+/usr/bin/x86_64-linux-gnu-gcc-ar-11
+/usr/bin/x86_64-linux-gnu-gcc-12
+/usr/bin/x86_64-linux-gnu-gcc-11
+/usr/bin/c99-gcc
+/usr/bin/c89-gcc
